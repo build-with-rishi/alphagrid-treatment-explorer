@@ -1,5 +1,7 @@
 # AlphaGrid Treatment Explorer
 
+[Open the live explorer](https://alphagrid-treatment-explorer.onrender.com)
+
 AlphaGrid Treatment Explorer is a source-backed evidence workspace for examining the data needed to estimate gaps between an actionable cancer biomarker and treatment. The discovery view now catalogs 49 cancer–biomarker pairs across ten cancers, with 45 indexed FDA indication records. Its older evidence atlas retains one exemplar pair per cancer. Country context covers India, the United States, the United Kingdom, Brazil and Nigeria.
 
 The application does not currently publish an unmatched-patient total. Source metadata is populated; public incidence values and national testing, access and treatment rates remain unavailable until publication rights and cited evidence are established.
@@ -59,7 +61,7 @@ The data pipeline writes a local DuckDB file and a git-ignored `data/catalog.loc
 
 See [data provenance](docs/data-provenance.md) for current record counts and publication restrictions.
 
-Code is Apache-2.0. Upstream data remains subject to each source’s terms.
+Code is Apache-2.0. The AlphaGrid logo is a brand asset; upstream data remains subject to each source’s terms.
 
 ## Contribute
 

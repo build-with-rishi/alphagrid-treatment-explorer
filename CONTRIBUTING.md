@@ -2,6 +2,8 @@
 
 Thanks for helping make treatment evidence easier to inspect. Contributions to the interface, source adapters, documentation, and reviewed evidence catalogue are welcome.
 
+Good starting points are correcting a sourced evidence record, adding a missing cancer–biomarker pair with its primary citation, improving report-parser fixtures with synthetic data, or making a source limitation easier to understand in the UI.
+
 ## Start locally
 
 Use Node.js 22 or newer. The committed public catalogue is enough to run the app:
