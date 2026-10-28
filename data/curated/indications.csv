@@ -1,0 +1,11 @@
+indication_id,oncotree_code,biomarker_id,hgnc_symbol,alteration_class,biomarker_name,drug_id,inn_name,evidence_source_id,evidence_status,evidence_url,ancestry_note
+nsclc_egfr,NSCLC,EGFR_SENS,EGFR,mutation,EGFR sensitising mutation,osimertinib,Osimertinib,civic,review_required,https://civicdb.org/,Frequency varies materially by ancestry and smoking history
+breast_her2,BRCA,ERBB2_AMP,ERBB2,amplification,HER2 amplification / overexpression,trastuzumab,Trastuzumab,civic,review_required,https://civicdb.org/,Assay and disease-stage definitions affect comparability
+crc_kras_g12c,COADREAD,KRAS_G12C,KRAS,mutation,KRAS G12C mutation,adagrasib_cetuximab,Adagrasib + cetuximab,civic,review_required,https://civicdb.org/,Metastatic cohorts are more relevant than primary tumour cohorts
+prostate_brca,PRAD,BRCA12_ALT,BRCA1/2,mutation,BRCA1/2 alteration,olaparib,Olaparib,civic,review_required,https://civicdb.org/,Germline and somatic definitions must remain separate
+gastric_her2,STAD,ERBB2_AMP,ERBB2,amplification,HER2 amplification / overexpression,trastuzumab,Trastuzumab,civic,review_required,https://civicdb.org/,Geographic and assay heterogeneity is substantial
+ovarian_brca,OVT,BRCA12_ALT,BRCA1/2,mutation,BRCA1/2 alteration,olaparib,Olaparib,civic,review_required,https://civicdb.org/,Histology and germline or somatic status affect the denominator
+pancreatic_brca,PAAD,BRCA12_GERMLINE,BRCA1/2,mutation,Germline BRCA1/2 mutation,olaparib,Olaparib,civic,review_required,https://civicdb.org/,Published cohorts may not represent national populations
+melanoma_braf,MEL,BRAF_V600,BRAF,mutation,BRAF V600 mutation,dabrafenib_trametinib,Dabrafenib + trametinib,civic,review_required,https://civicdb.org/,Only cutaneous melanoma is represented
+thyroid_ret,THYROID,RET_FUSION,RET,fusion,RET fusion,selpercatinib,Selpercatinib,civic,review_required,https://civicdb.org/,Frequency differs by thyroid histology
+cholangio_fgfr2,CHOL,FGFR2_FUSION,FGFR2,fusion,FGFR2 fusion / rearrangement,pemigatinib,Pemigatinib,civic,review_required,https://civicdb.org/,Primarily relevant to intrahepatic cholangiocarcinoma

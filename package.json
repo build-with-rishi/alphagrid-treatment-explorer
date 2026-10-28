@@ -1,0 +1,33 @@
+{
+  "name": "alphagrid-treatment-explorer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "data:build": "python3 -m pipelines.build_database && python3 -m pipelines.export && python3 -m pipelines.export --include-restricted --output data/catalog.local.json",
+    "data:offline": "python3 -m pipelines.build_database --offline && python3 -m pipelines.export && python3 -m pipelines.export --include-restricted --output data/catalog.local.json",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -b --pretty false"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "pdfjs-dist": "^6.4.299",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/node": "^26.6.5",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "jsdom": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

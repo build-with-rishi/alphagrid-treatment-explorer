@@ -1,0 +1,11 @@
+oncotree_code,slug,name,globocan_site,globocan_site_code,direct_incidence_site
+NSCLC,nsclc,Non-small cell lung cancer,Lung,15,false
+BRCA,breast,Breast cancer,Breast,20,true
+COADREAD,colorectal,Colorectal cancer,Colorectum,40,true
+PRAD,prostate,Prostate cancer,Prostate,21,true
+STAD,gastric,Gastric cancer,Stomach,7,true
+OVT,ovarian,Ovarian cancer,Ovary,25,true
+PAAD,pancreatic,Pancreatic cancer,Pancreas,13,true
+MEL,melanoma,Cutaneous melanoma,Melanoma,16,true
+THYROID,thyroid,Thyroid cancer,Thyroid,32,true
+CHOL,cholangiocarcinoma,Cholangiocarcinoma,Liver,11,false

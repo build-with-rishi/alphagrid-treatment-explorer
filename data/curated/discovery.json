@@ -1,0 +1,843 @@
+{
+  "reviewedOn": "2026-10-28",
+  "biomarkers": [
+    {
+      "id": "nsclc_egfr_sens",
+      "tumourSlug": "nsclc",
+      "name": "EGFR exon 19 deletion / L858R",
+      "pathway": "EGFR",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_alk",
+      "tumourSlug": "nsclc",
+      "name": "ALK rearrangement",
+      "pathway": "ALK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_ros1",
+      "tumourSlug": "nsclc",
+      "name": "ROS1 rearrangement",
+      "pathway": "ROS1",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_ret",
+      "tumourSlug": "nsclc",
+      "name": "RET fusion",
+      "pathway": "RET",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_braf",
+      "tumourSlug": "nsclc",
+      "name": "BRAF V600E mutation",
+      "pathway": "MAPK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_kras_g12c",
+      "tumourSlug": "nsclc",
+      "name": "KRAS G12C mutation",
+      "pathway": "RAS–MAPK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_pdl1",
+      "tumourSlug": "nsclc",
+      "name": "PD-L1 TPS ≥1%",
+      "pathway": "Immune checkpoint",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_her2",
+      "tumourSlug": "nsclc",
+      "name": "Activating HER2 (ERBB2) mutation",
+      "pathway": "ERBB2",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "nsclc_met_ex14",
+      "tumourSlug": "nsclc",
+      "name": "MET exon 14 skipping",
+      "pathway": "MET",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tepotinib-metastatic-non-small-cell-lung-cancer"
+    },
+    {
+      "id": "nsclc_nrg1",
+      "tumourSlug": "nsclc",
+      "name": "NRG1 fusion",
+      "pathway": "ERBB3",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zenocutuzumab-zbco-non-small-cell-lung-cancer-and-pancreatic"
+    },
+    {
+      "id": "breast_her2",
+      "tumourSlug": "breast",
+      "name": "HER2 amplification / overexpression",
+      "pathway": "ERBB2",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "breast_er_pr",
+      "tumourSlug": "breast",
+      "name": "HR-positive / HER2-negative",
+      "pathway": "Hormone receptor",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "breast_brca",
+      "tumourSlug": "breast",
+      "name": "Germline BRCA1/2 mutation",
+      "pathway": "DNA repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "breast_esr1",
+      "tumourSlug": "breast",
+      "name": "ESR1 mutation",
+      "pathway": "Estrogen receptor",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "breast_pik3ca",
+      "tumourSlug": "breast",
+      "name": "PIK3CA mutation",
+      "pathway": "PI3K–AKT",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "breast_her2_low",
+      "tumourSlug": "breast",
+      "name": "HER2-low or ultralow expression",
+      "pathway": "ERBB2",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-fam-trastuzumab-deruxtecan-nxki-unresectable-or-metastatic-hr-positive-her2-low-or-her2"
+    },
+    {
+      "id": "colorectal_kras_g12c",
+      "tumourSlug": "colorectal",
+      "name": "KRAS G12C mutation",
+      "pathway": "RAS–MAPK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "colorectal_braf",
+      "tumourSlug": "colorectal",
+      "name": "BRAF V600E mutation",
+      "pathway": "MAPK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "colorectal_msi",
+      "tumourSlug": "colorectal",
+      "name": "MSI-high / dMMR",
+      "pathway": "Mismatch repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq"
+    },
+    {
+      "id": "colorectal_egfr",
+      "tumourSlug": "colorectal",
+      "name": "EGFR expression / pathway",
+      "pathway": "EGFR",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "prostate_brca",
+      "tumourSlug": "prostate",
+      "name": "BRCA1/2 alteration",
+      "pathway": "DNA repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "prostate_msi",
+      "tumourSlug": "prostate",
+      "name": "MSI-high / dMMR",
+      "pathway": "Mismatch repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq"
+    },
+    {
+      "id": "prostate_tmb",
+      "tumourSlug": "prostate",
+      "name": "TMB-high (≥13 mut/Mb)",
+      "pathway": "Tumour mutational burden",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph"
+    },
+    {
+      "id": "gastric_her2",
+      "tumourSlug": "gastric",
+      "name": "HER2 amplification / overexpression",
+      "pathway": "ERBB2",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "gastric_pdl1",
+      "tumourSlug": "gastric",
+      "name": "PD-L1 expression",
+      "pathway": "Immune checkpoint",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "gastric_msi",
+      "tumourSlug": "gastric",
+      "name": "MSI-high / dMMR",
+      "pathway": "Mismatch repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq"
+    },
+    {
+      "id": "ovarian_brca",
+      "tumourSlug": "ovarian",
+      "name": "BRCA1/2 alteration",
+      "pathway": "DNA repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "ovarian_braf",
+      "tumourSlug": "ovarian",
+      "name": "BRAF V600 mutation",
+      "pathway": "MAPK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "ovarian_pik3ca",
+      "tumourSlug": "ovarian",
+      "name": "PIK3CA mutation",
+      "pathway": "PI3K–AKT",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "ovarian_msi",
+      "tumourSlug": "ovarian",
+      "name": "MSI-high / dMMR",
+      "pathway": "Mismatch repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq"
+    },
+    {
+      "id": "pancreatic_brca",
+      "tumourSlug": "pancreatic",
+      "name": "Germline BRCA1/2 mutation",
+      "pathway": "DNA repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "pancreatic_her2",
+      "tumourSlug": "pancreatic",
+      "name": "HER2 alteration",
+      "pathway": "ERBB2",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "pancreatic_msi",
+      "tumourSlug": "pancreatic",
+      "name": "MSI-high / dMMR",
+      "pathway": "Mismatch repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq"
+    },
+    {
+      "id": "pancreatic_nrg1",
+      "tumourSlug": "pancreatic",
+      "name": "NRG1 fusion",
+      "pathway": "ERBB3",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zenocutuzumab-zbco-non-small-cell-lung-cancer-and-pancreatic"
+    },
+    {
+      "id": "melanoma_braf",
+      "tumourSlug": "melanoma",
+      "name": "BRAF V600 mutation",
+      "pathway": "MAPK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "melanoma_ntrk",
+      "tumourSlug": "melanoma",
+      "name": "NTRK fusion",
+      "pathway": "TRK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq"
+    },
+    {
+      "id": "melanoma_tmb",
+      "tumourSlug": "melanoma",
+      "name": "TMB-high (≥13 mut/Mb)",
+      "pathway": "Tumour mutational burden",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph"
+    },
+    {
+      "id": "thyroid_ret_fusion",
+      "tumourSlug": "thyroid",
+      "name": "RET fusion",
+      "pathway": "RET",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "thyroid_ret_mutation",
+      "tumourSlug": "thyroid",
+      "name": "RET-mutant medullary thyroid cancer",
+      "pathway": "RET",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "thyroid_braf",
+      "tumourSlug": "thyroid",
+      "name": "BRAF V600 mutation",
+      "pathway": "MAPK",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "cholangiocarcinoma_fgfr2",
+      "tumourSlug": "cholangiocarcinoma",
+      "name": "FGFR2 fusion / rearrangement",
+      "pathway": "FGFR",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf"
+    },
+    {
+      "id": "cholangiocarcinoma_idh1",
+      "tumourSlug": "cholangiocarcinoma",
+      "name": "IDH1 mutation",
+      "pathway": "IDH",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "cholangiocarcinoma_idh2",
+      "tumourSlug": "cholangiocarcinoma",
+      "name": "IDH2 mutation",
+      "pathway": "IDH",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list"
+    },
+    {
+      "id": "cholangiocarcinoma_msi",
+      "tumourSlug": "cholangiocarcinoma",
+      "name": "MSI-high / dMMR",
+      "pathway": "Mismatch repair",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/types/agnostic-cancer-therapies-hp-pdq"
+    },
+    {
+      "id": "cholangiocarcinoma_nrg1",
+      "tumourSlug": "cholangiocarcinoma",
+      "name": "NRG1 fusion",
+      "pathway": "ERBB3",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zenocutuzumab-zbco-advanced-unresectable-or-metastatic-cholangiocarcinoma"
+    },
+    {
+      "id": "ovarian_hrd",
+      "tumourSlug": "ovarian",
+      "name": "HRD-positive (BRCA mutation and/or genomic instability)",
+      "pathway": "DNA repair",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/214876Orig1s006lbl.pdf"
+    },
+    {
+      "id": "ovarian_fra",
+      "tumourSlug": "ovarian",
+      "name": "FRα positive (FOLR1 expression)",
+      "pathway": "Folate receptor",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-mirvetuximab-soravtansine-gynx-fra-positive-platinum-resistant-epithelial-ovarian"
+    },
+    {
+      "id": "ovarian_kras_lgsoc",
+      "tumourSlug": "ovarian",
+      "name": "KRAS mutation · low-grade serous ovarian cancer",
+      "pathway": "RAS–MAPK",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-combination-avutometinib-and-defactinib-kras-mutated-recurrent-low"
+    },
+    {
+      "id": "ovarian_pdl1_cps1",
+      "tumourSlug": "ovarian",
+      "name": "PD-L1 CPS ≥1 · epithelial ovarian cancer",
+      "pathway": "Immune checkpoint",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or"
+    }
+  ],
+  "fdaMatches": [
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_egfr_sens",
+      "drugName": "Osimertinib + platinum chemotherapy",
+      "indication": "Locally advanced or metastatic NSCLC with EGFR exon 19 deletion or exon 21 L858R; first-line combination.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-osimertinib-chemotherapy-egfr-mutated-non-small-cell-lung-cancer",
+      "sourceDate": "2024-02-16",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2024-02-16"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_braf",
+      "drugName": "Encorafenib + binimetinib",
+      "indication": "Metastatic NSCLC with a BRAF V600E mutation.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-encorafenib-binimetinib-metastatic-non-small-cell-lung-cancer-braf-v600e-mutation",
+      "sourceDate": "2023-10-11",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2023-10-11"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_met_ex14",
+      "drugName": "Tepotinib",
+      "indication": "Metastatic NSCLC with a MET exon 14 skipping alteration.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tepotinib-metastatic-non-small-cell-lung-cancer",
+      "sourceDate": "2024-02-15",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2024-02-15"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_nrg1",
+      "drugName": "Zenocutuzumab",
+      "indication": "Advanced unresectable or metastatic NRG1 fusion-positive NSCLC after prior systemic therapy.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zenocutuzumab-zbco-non-small-cell-lung-cancer-and-pancreatic",
+      "sourceDate": "2024-12-04",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2024-12-04"
+    },
+    {
+      "tumourSlug": "breast",
+      "biomarkerId": "breast_esr1",
+      "drugName": "Elacestrant",
+      "indication": "ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer after endocrine therapy.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-elacestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast-cancer",
+      "sourceDate": "2023-01-27",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2023-01-27"
+    },
+    {
+      "tumourSlug": "breast",
+      "biomarkerId": "breast_pik3ca",
+      "drugName": "Alpelisib + fulvestrant",
+      "indication": "HR-positive, HER2-negative, PIK3CA-mutated advanced or metastatic breast cancer after endocrine-based treatment.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/212526s001lbl.pdf",
+      "sourceDate": "2020 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2020 label"
+    },
+    {
+      "tumourSlug": "breast",
+      "biomarkerId": "breast_her2_low",
+      "drugName": "Trastuzumab deruxtecan",
+      "indication": "HR-positive, HER2-low or HER2-ultralow unresectable or metastatic breast cancer after endocrine therapy in the metastatic setting.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-fam-trastuzumab-deruxtecan-nxki-unresectable-or-metastatic-hr-positive-her2-low-or-her2",
+      "sourceDate": "2025-01-27",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2025-01-27"
+    },
+    {
+      "tumourSlug": "colorectal",
+      "biomarkerId": "colorectal_kras_g12c",
+      "drugName": "Sotorasib + panitumumab",
+      "indication": "KRAS G12C-mutated metastatic colorectal cancer after specified prior chemotherapy.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sotorasib-panitumumab-kras-g12c-mutated-colorectal-cancer",
+      "sourceDate": "2025-01-16",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2025-01-16"
+    },
+    {
+      "tumourSlug": "colorectal",
+      "biomarkerId": "colorectal_braf",
+      "drugName": "Encorafenib + cetuximab + chemotherapy",
+      "indication": "Metastatic colorectal cancer with a BRAF V600E mutation.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-encorafenib-metastatic-colorectal-cancer-braf-v600e-mutation",
+      "sourceDate": "2026-02-24",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2026-02-24"
+    },
+    {
+      "tumourSlug": "colorectal",
+      "biomarkerId": "colorectal_msi",
+      "drugName": "Pembrolizumab",
+      "indication": "First-line unresectable or metastatic MSI-high or dMMR colorectal cancer.",
+      "sourceUrl": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pembrolizumab-first-line-treatment-msi-hdmmr-colorectal-cancer",
+      "sourceDate": "2020-06-29",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2020-06-29"
+    },
+    {
+      "tumourSlug": "prostate",
+      "biomarkerId": "prostate_brca",
+      "drugName": "Olaparib + abiraterone + prednisone",
+      "indication": "BRCA-mutated metastatic castration-resistant prostate cancer.",
+      "sourceUrl": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-olaparib-abiraterone-and-prednisone-or-prednisolone-brca-mutated-metastatic-castration",
+      "sourceDate": "2023-05-31",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2023-05-31"
+    },
+    {
+      "tumourSlug": "gastric",
+      "biomarkerId": "gastric_her2",
+      "drugName": "Trastuzumab deruxtecan",
+      "indication": "Previously treated HER2-positive locally advanced or metastatic gastric or GEJ adenocarcinoma.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761139s028lbl.pdf",
+      "sourceDate": "2024 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2024 label"
+    },
+    {
+      "tumourSlug": "ovarian",
+      "biomarkerId": "ovarian_brca",
+      "drugName": "Olaparib",
+      "indication": "Maintenance after first-line platinum response in BRCA-mutated advanced epithelial ovarian cancer.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf",
+      "sourceDate": "2025 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2025 label"
+    },
+    {
+      "tumourSlug": "pancreatic",
+      "biomarkerId": "pancreatic_brca",
+      "drugName": "Olaparib",
+      "indication": "Maintenance for germline BRCA-mutated metastatic pancreatic adenocarcinoma without progression after first-line platinum chemotherapy.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf",
+      "sourceDate": "2025 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2025 label"
+    },
+    {
+      "tumourSlug": "pancreatic",
+      "biomarkerId": "pancreatic_nrg1",
+      "drugName": "Zenocutuzumab",
+      "indication": "Advanced unresectable or metastatic NRG1 fusion-positive pancreatic adenocarcinoma after prior systemic therapy.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zenocutuzumab-zbco-non-small-cell-lung-cancer-and-pancreatic",
+      "sourceDate": "2024-12-04",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2024-12-04"
+    },
+    {
+      "tumourSlug": "melanoma",
+      "biomarkerId": "melanoma_braf",
+      "drugName": "Dabrafenib + trametinib",
+      "indication": "Unresectable or metastatic melanoma with BRAF V600E or V600K mutation.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/202806s40lbl.pdf",
+      "sourceDate": "2026 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2026 label"
+    },
+    {
+      "tumourSlug": "thyroid",
+      "biomarkerId": "thyroid_ret_fusion",
+      "drugName": "Selpercatinib",
+      "indication": "Advanced or metastatic RET fusion-positive thyroid cancer requiring systemic therapy and refractory to radioactive iodine when appropriate.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/213246s009lbl.pdf",
+      "sourceDate": "2024 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2024 label"
+    },
+    {
+      "tumourSlug": "cholangiocarcinoma",
+      "biomarkerId": "cholangiocarcinoma_fgfr2",
+      "drugName": "Pemigatinib",
+      "indication": "Previously treated unresectable locally advanced or metastatic cholangiocarcinoma with FGFR2 fusion or rearrangement.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf",
+      "sourceDate": "2022 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2022 label"
+    },
+    {
+      "tumourSlug": "cholangiocarcinoma",
+      "biomarkerId": "cholangiocarcinoma_fgfr2",
+      "drugName": "Lirafugratinib",
+      "indication": "Previously treated unresectable locally advanced or metastatic cholangiocarcinoma with FGFR2 fusion or rearrangement.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lirafugratinib-previously-treated-unresectable-locally-advanced-or-metastatic",
+      "sourceDate": "2026-09-23",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2026-09-23"
+    },
+    {
+      "tumourSlug": "cholangiocarcinoma",
+      "biomarkerId": "cholangiocarcinoma_idh1",
+      "drugName": "Ivosidenib",
+      "indication": "Previously treated locally advanced or metastatic cholangiocarcinoma with an IDH1 mutation.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/211192_s008lbl.pdf",
+      "sourceDate": "2021 label",
+      "sourceLocator": "Indications and Usage section 1",
+      "approvalDate": "2021 label"
+    },
+    {
+      "tumourSlug": "cholangiocarcinoma",
+      "biomarkerId": "cholangiocarcinoma_nrg1",
+      "drugName": "Zenocutuzumab",
+      "indication": "Advanced unresectable or metastatic NRG1 fusion-positive cholangiocarcinoma after prior systemic therapy.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zenocutuzumab-zbco-advanced-unresectable-or-metastatic-cholangiocarcinoma",
+      "sourceDate": "2026-05-08",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2026-05-08"
+    },
+    {
+      "tumourSlug": "prostate",
+      "biomarkerId": "prostate_msi",
+      "drugName": "Pembrolizumab",
+      "indication": "Unresectable or metastatic MSI-high or dMMR solid tumour after prior treatment with no satisfactory alternative options.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals",
+      "sourceDate": "2023 verified benefit",
+      "sourceLocator": "FDA approval notice, opening indication paragraph"
+    },
+    {
+      "tumourSlug": "gastric",
+      "biomarkerId": "gastric_msi",
+      "drugName": "Pembrolizumab",
+      "indication": "Unresectable or metastatic MSI-high or dMMR solid tumour after prior treatment with no satisfactory alternative options.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals",
+      "sourceDate": "2023 verified benefit",
+      "sourceLocator": "FDA approval notice, opening indication paragraph"
+    },
+    {
+      "tumourSlug": "ovarian",
+      "biomarkerId": "ovarian_msi",
+      "drugName": "Pembrolizumab",
+      "indication": "Unresectable or metastatic MSI-high or dMMR solid tumour after prior treatment with no satisfactory alternative options.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals",
+      "sourceDate": "2023 verified benefit",
+      "sourceLocator": "FDA approval notice, opening indication paragraph"
+    },
+    {
+      "tumourSlug": "pancreatic",
+      "biomarkerId": "pancreatic_msi",
+      "drugName": "Pembrolizumab",
+      "indication": "Unresectable or metastatic MSI-high or dMMR solid tumour after prior treatment with no satisfactory alternative options.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals",
+      "sourceDate": "2023 verified benefit",
+      "sourceLocator": "FDA approval notice, opening indication paragraph"
+    },
+    {
+      "tumourSlug": "cholangiocarcinoma",
+      "biomarkerId": "cholangiocarcinoma_msi",
+      "drugName": "Pembrolizumab",
+      "indication": "Unresectable or metastatic MSI-high or dMMR solid tumour after prior treatment with no satisfactory alternative options.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/verified-clinical-benefit-cancer-accelerated-approvals",
+      "sourceDate": "2023 verified benefit",
+      "sourceLocator": "FDA approval notice, opening indication paragraph"
+    },
+    {
+      "tumourSlug": "prostate",
+      "biomarkerId": "prostate_tmb",
+      "drugName": "Pembrolizumab",
+      "indication": "Unresectable or metastatic TMB-high solid tumour (≥13 mut/Mb) after prior treatment with no satisfactory alternative options.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph",
+      "sourceDate": "2026-10-16",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2026-10-16"
+    },
+    {
+      "tumourSlug": "melanoma",
+      "biomarkerId": "melanoma_tmb",
+      "drugName": "Pembrolizumab",
+      "indication": "Unresectable or metastatic TMB-high solid tumour (≥13 mut/Mb) after prior treatment with no satisfactory alternative options.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph",
+      "sourceDate": "2026-10-16",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2026-10-16"
+    },
+    {
+      "tumourSlug": "melanoma",
+      "biomarkerId": "melanoma_ntrk",
+      "drugName": "Larotrectinib",
+      "indication": "NTRK fusion-positive metastatic solid tumour, or resection likely to cause severe morbidity, with no satisfactory alternative treatment or progression after treatment.",
+      "sourceUrl": "https://www.fda.gov/drugs/fda-approves-larotrectinib-solid-tumors-ntrk-gene-fusions-0",
+      "sourceDate": "2018-11-26",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "approvalDate": "2018-11-26"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_alk",
+      "drugName": "Alectinib",
+      "indication": "Adults with ALK-positive metastatic NSCLC, as detected by an FDA-approved test.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/208434s017lbl.pdf",
+      "sourceDate": "2026 label",
+      "sourceLocator": "Indications and Usage section 1.2",
+      "studyIds": []
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_ros1",
+      "drugName": "Repotrectinib",
+      "indication": "Locally advanced or metastatic ROS1-positive NSCLC.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-repotrectinib-ros1-positive-non-small-cell-lung-cancer",
+      "sourceDate": "2023-11-15",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [
+        "NCT03093116"
+      ],
+      "approvalDate": "2023-11-15"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_ret",
+      "drugName": "Pralsetinib",
+      "indication": "Adults with metastatic RET fusion-positive NSCLC, detected by an FDA-approved test.",
+      "sourceUrl": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pralsetinib-non-small-cell-lung-cancer-ret-gene-fusions",
+      "sourceDate": "2023-08-09",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [
+        "NCT03037385"
+      ],
+      "approvalDate": "2023-08-09"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_kras_g12c",
+      "drugName": "Adagrasib",
+      "indication": "Adults with KRAS G12C-mutated locally advanced or metastatic NSCLC, detected by an FDA-approved test, after at least one prior systemic therapy.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216340s011lbl.pdf",
+      "sourceDate": "2026 label",
+      "sourceLocator": "Indications and Usage section 1.1",
+      "studyIds": []
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_pdl1",
+      "drugName": "Pembrolizumab",
+      "indication": "First-line single agent for unresectable stage III or metastatic NSCLC with PD-L1 TPS ≥1%, no EGFR or ALK genomic aberrations, detected by an FDA-approved test.",
+      "sourceUrl": "https://www.fda.gov/drugs/fda-expands-pembrolizumab-indication-first-line-treatment-nsclc-tps-1",
+      "sourceDate": "2019-04-11",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [
+        "NCT02220894"
+      ],
+      "approvalDate": "2019-04-11"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_her2",
+      "drugName": "Trastuzumab deruxtecan",
+      "indication": "Adults with unresectable or metastatic NSCLC with an activating HER2 mutation, detected by an FDA-approved test, after prior systemic therapy.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761139s041s043lbl.pdf",
+      "sourceDate": "2026 label",
+      "sourceLocator": "Indications and Usage, NSCLC subsection",
+      "studyIds": []
+    },
+    {
+      "tumourSlug": "breast",
+      "biomarkerId": "breast_her2",
+      "drugName": "Trastuzumab deruxtecan + pertuzumab",
+      "indication": "First-line adults with unresectable or metastatic HER2-positive (IHC 3+ or ISH+) breast cancer, detected by an FDA-approved test.",
+      "sourceUrl": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-fam-trastuzumab-deruxtecan-nxki-pertuzumab-unresectable-or-metastatic-her2-positive",
+      "sourceDate": "2025-12-15",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [],
+      "approvalDate": "2025-12-15"
+    },
+    {
+      "tumourSlug": "breast",
+      "biomarkerId": "breast_brca",
+      "drugName": "Olaparib",
+      "indication": "Adjuvant adults with deleterious or suspected deleterious germline BRCA-mutated, HER2-negative high-risk early breast cancer after neoadjuvant or adjuvant chemotherapy.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf",
+      "sourceDate": "2025 label",
+      "sourceLocator": "Indications and Usage, adjuvant breast cancer subsection",
+      "studyIds": []
+    },
+    {
+      "tumourSlug": "thyroid",
+      "biomarkerId": "thyroid_ret_mutation",
+      "drugName": "Selpercatinib",
+      "indication": "Patients age 2 years and older with advanced or metastatic RET-mutant medullary thyroid cancer, detected by an FDA-approved test, who require systemic therapy.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-selpercatinib-ret-fusion-positive-medullary-thyroid-cancer",
+      "sourceDate": "2024-09-27",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [
+        "NCT04211337"
+      ],
+      "approvalDate": "2024-09-27"
+    },
+    {
+      "tumourSlug": "breast",
+      "biomarkerId": "breast_er_pr",
+      "drugName": "Abemaciclib + endocrine therapy",
+      "indication": "Adjuvant adults with HR-positive, HER2-negative, node-positive early breast cancer at high risk of recurrence.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy",
+      "sourceDate": "2023-03-03",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [],
+      "approvalDate": "2023-03-03"
+    },
+    {
+      "tumourSlug": "ovarian",
+      "biomarkerId": "ovarian_hrd",
+      "drugName": "Niraparib",
+      "indication": "First-line maintenance for adults with HRD-positive advanced epithelial ovarian, fallopian tube, or primary peritoneal cancer after complete or partial response to platinum chemotherapy. HRD is defined by deleterious or suspected deleterious BRCA mutation and/or genomic instability.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/214876Orig1s006lbl.pdf",
+      "sourceDate": "2026 label",
+      "sourceLocator": "Indications and Usage section 1.1",
+      "studyIds": []
+    },
+    {
+      "tumourSlug": "ovarian",
+      "biomarkerId": "ovarian_hrd",
+      "drugName": "Olaparib + bevacizumab",
+      "indication": "Maintenance for adults with HRD-positive advanced epithelial ovarian, fallopian tube, or primary peritoneal cancer after complete or partial response to first-line platinum chemotherapy. HRD is defined by BRCA mutation and/or genomic instability.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf",
+      "sourceDate": "2025 label",
+      "sourceLocator": "Indications and Usage, ovarian maintenance subsection",
+      "studyIds": []
+    },
+    {
+      "tumourSlug": "ovarian",
+      "biomarkerId": "ovarian_fra",
+      "drugName": "Mirvetuximab soravtansine",
+      "indication": "Adults with FRα-positive, platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer after one to three prior systemic regimens, selected by an FDA-approved test.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-mirvetuximab-soravtansine-gynx-fra-positive-platinum-resistant-epithelial-ovarian",
+      "sourceDate": "2024-03-22",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [
+        "NCT04209855"
+      ],
+      "approvalDate": "2024-03-22"
+    },
+    {
+      "tumourSlug": "ovarian",
+      "biomarkerId": "ovarian_kras_lgsoc",
+      "drugName": "Avutometinib + defactinib",
+      "indication": "Adults with KRAS-mutated recurrent low-grade serous ovarian cancer after prior systemic therapy. Accelerated approval.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-combination-avutometinib-and-defactinib-kras-mutated-recurrent-low",
+      "sourceDate": "2025-05-08",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [
+        "NCT04625270"
+      ],
+      "approvalDate": "2025-05-08"
+    },
+    {
+      "tumourSlug": "ovarian",
+      "biomarkerId": "ovarian_pdl1_cps1",
+      "drugName": "Pembrolizumab + paclitaxel (with or without bevacizumab)",
+      "indication": "Adults with platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal carcinoma, PD-L1 CPS ≥1 by an FDA-authorized test, after one or two prior systemic regimens.",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or",
+      "sourceDate": "2026-02-10",
+      "sourceLocator": "FDA approval notice, opening indication paragraph",
+      "studyIds": [
+        "NCT05116189"
+      ],
+      "approvalDate": "2026-02-10"
+    },
+    {
+      "tumourSlug": "nsclc",
+      "biomarkerId": "nsclc_kras_g12c",
+      "drugName": "Sotorasib",
+      "indication": "As a single agent for adults with KRAS G12C-mutated locally advanced or metastatic NSCLC, detected by an FDA-approved test, after at least one prior systemic therapy. Accelerated approval.",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/214665s009lbl.pdf",
+      "sourceDate": "2025 label",
+      "sourceLocator": "Indications and Usage section 1.1",
+      "studyIds": []
+    }
+  ],
+  "standardRegimens": [
+    {
+      "id": "ovarian_nact_carbo_paclitaxel",
+      "tumourSlug": "ovarian",
+      "title": "Carboplatin + paclitaxel",
+      "setting": "Advanced epithelial ovarian cancer · neoadjuvant chemotherapy before interval surgery",
+      "summary": "NCI describes this platinum–taxane regimen in trials of stage III–IV disease receiving neoadjuvant chemotherapy. Selection depends on disease and surgical context, not on a BRCA result.",
+      "sourceName": "NCI PDQ, health professional version",
+      "sourceUrl": "https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq",
+      "sourceLocator": "Advanced-stage treatment; neoadjuvant chemotherapy trials (CHORUS)",
+      "regulatoryNote": "NCI-reviewed treatment evidence; this card does not claim an FDA-labelled neoadjuvant combination."
+    },
+    {
+      "id": "ovarian_firstline_cisplatin_paclitaxel",
+      "tumourSlug": "ovarian",
+      "title": "Cisplatin + paclitaxel",
+      "setting": "First-line advanced ovarian carcinoma",
+      "summary": "NCI reviews the platinum–taxane combination as an established first-line comparator. The cited FDA paclitaxel label identifies cisplatin plus paclitaxel for first-line ovarian treatment; the card does not assert a specific neoadjuvant indication.",
+      "sourceName": "NCI PDQ and FDA paclitaxel label",
+      "sourceUrl": "https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq",
+      "sourceLocator": "Advanced-stage treatment; platinum–taxane comparisons",
+      "regulatoryNote": "FDA paclitaxel label: first-line in combination with cisplatin; neoadjuvant use is not specified.",
+      "fdaSourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/020262s051lbl.pdf"
+    }
+  ]
+}

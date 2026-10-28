@@ -1,0 +1,28 @@
+name: Evidence record or correction
+description: Propose a biomarker, drug indication, treatment-context record, or correction
+title: "Evidence: "
+body:
+  - type: input
+    id: cancer
+    attributes:
+      label: Cancer type and biomarker or pathway
+      placeholder: e.g. ovarian cancer, FRα high expression
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed change
+      description: Include indication conditions and what the current catalogue gets wrong or misses.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL
+      description: Link the exact FDA, NCI, trial, or other authoritative record.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Do not include real patient reports or personal health information.

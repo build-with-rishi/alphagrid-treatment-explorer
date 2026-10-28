@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.venv/
+.DS_Store
+*.local
+*.tsbuildinfo
+.superpowers/
+__pycache__/
+*.py[cod]
+data/raw/
+data/*.duckdb
+data/curated/incidence.csv
+data/curated/globocan_country_burden.csv
+data/catalog.local.json

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    runtime: static
+    name: alphagrid-treatment-explorer
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    autoDeployTrigger: commit

@@ -1,0 +1,15 @@
+source_id,title,url,access_class,licence,redistribution_allowed,feeds_stage,notes
+globocan,GLOBOCAN 2024 Cancer Today,https://gco.iarc.who.int/today/,manual,IARC terms,false,diagnosed,Systematic retrieval and redistribution require IARC permission
+oncotree,OncoTree,https://oncotree.mskcc.org/,open,Open,true,ontology,Public API; retain attribution
+cbioportal,cBioPortal,https://docs.cbioportal.org/web-api-and-clients/,open,Open API,true,frequency,Current snapshot contains study-summary metadata only; clinical records molecular profiles and frequencies are not yet ingested
+genie,AACR Project GENIE,https://www.aacr.org/professionals/research/aacr-project-genie/,account-gated,AACR GENIE terms,false,frequency,Fetch only after accepting terms; do not redistribute raw data
+gdc,NCI Genomic Data Commons,https://api.gdc.cancer.gov/,open,US Government,true,frequency,Current snapshot contains project metadata only; molecular files and frequencies are not yet ingested
+civic,CIViC,https://civicdb.org/,open,CC0,true,drug,Current snapshot is a gene and variant index only; evidence items assertions diseases therapies and citations are not yet ingested
+oncokb,OncoKB,https://www.oncokb.org/api/v1,licensed,OncoKB licence,false,drug,Commercial entities require a licence
+openfda,openFDA Drugs@FDA,https://api.fda.gov/drug/drugsfda.json,open,Public domain,true,drug|access,Current snapshot contains application metadata; tumour-biomarker indication labels and non-US access are not established
+ema,EMA medicines download,https://www.ema.europa.eu/en/medicines/download-medicine-data,manual,European Medicines Agency terms,true,access,Download and normalize the official table
+cdsco,CDSCO approved new drugs,https://cdsco.gov.in/opencms/opencms/en/Approval_new/Approved-New-Drugs/,manual,Government publication,true,access,PDF extraction requires human verification
+who_eml,WHO electronic essential medicines list,https://list.essentialmeds.org/,manual,CC BY 3.0 IGO,true,access,Essential listing is an access proxy not treatment availability
+clinicaltrials,ClinicalTrials.gov API v2,https://clinicaltrials.gov/data-api/api,open,Public domain,true,trial_access,Trial presence does not establish routine access
+worldbank,World Bank Indicators API,https://api.worldbank.org/v2/,open,World Bank terms,true,country_context,Country context only
+literature,Curated peer-reviewed literature,https://pubmed.ncbi.nlm.nih.gov/,literature,Mixed,false,eligible|testing|treated,Each row requires a specific citation and access review
